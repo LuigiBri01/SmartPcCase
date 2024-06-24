@@ -1,1 +1,11 @@
 Questo è il nostro progetto per l'esame di IOT Col professore Mazzocca.
+
+Il nostro progetto consiste nella realizzazione di un sistema IoT per controllare la temperatura e la sicurezza di un case pc.
+In particolare si intendono sviluppare i seguenti servizi:
+1. I valori della temperatura vengono mostrati su un LCD (display), i quali     vengono prelevati dal database e visualizzati sulla pagina web.
+2. Se la temperatura supera una certa soglia:
+   -Si accendono i led in base all’aumento della temperatura
+   -Viene aperto il passaggio, con l’utilizzo di un Motore Servo, per un ipotetico liquido refrigerante per raffreddare il case
+3. Se il livello del liquido refrigerante diminuisce, controllato tramite l’utilizzo di sensore di Distanza ad Ultrasuoni:
+   -Verrà visualizzato sulla pagina web
+   -Verrà avvertito l’utente tramite un suono riprodotto da un Buzzer.
